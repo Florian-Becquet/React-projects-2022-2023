@@ -156,7 +156,7 @@ main {
   color: var(--clr-primary-5);
   transition: var(--transition);
   cursor: pointer;
-  animation: bounce 2s ease-in-out infinite;
+  animation: bounce 1.5s ease-in-out infinite;
 }
 
 @keyframes bounce {
@@ -164,7 +164,7 @@ main {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.5);
+    transform: scale(1.15);
   }
   100% {
     transform: scale(1);

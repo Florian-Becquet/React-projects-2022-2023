@@ -138,14 +138,14 @@ Navbar
   align-items: center;
   border-bottom: 2px solid var(--primaryColor);
   box-shadow: var(--lightShadow);
+  justify-content: space-around;
 }
 .nav-center {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: var(--smallWidth);
-  margin: 0 auto;
-  max-width: var(--fullWidth);
+  /* width: var(--smallWidth); */
+  /* margin: 0 auto; */
+  /* max-width: var(--fullWidth); */
 }
 .nav-links {
   display: flex;
@@ -182,6 +182,7 @@ About
   line-height: 2rem;
   font-weight: 400;
   letter-spacing: 2px;
+  text-align: justify;
 }
 /* 
 ====== 
