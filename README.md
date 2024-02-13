@@ -15,8 +15,6 @@ For example :
 cd 15-cocktails/setup
 ```
 
-cd 15-cocktails/setup
-
 ```
 npm install 
 ```
